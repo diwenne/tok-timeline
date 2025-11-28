@@ -95,7 +95,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 text-center text-muted-foreground border-t border-border/30 bg-background/50 backdrop-blur-sm">
-        <p>© {new Date().getFullYear()} Diwen Huang • TOK Assignment</p>
+        <p>Diwen Huang • Nov 26, 2025</p>
       </footer>
     </div>
   );
