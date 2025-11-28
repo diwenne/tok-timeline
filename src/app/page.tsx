@@ -45,11 +45,14 @@ export default function Home() {
           >
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-primary">
-                Technology’s Impact
+                Technology's Impact
               </span>
               <br />
               <span className="text-foreground">on 2D Visual Arts</span>
             </h1>
+            <p className="text-lg text-muted-foreground mt-4">
+              Diwen Huang • November 27, 2025
+            </p>
           </motion.div>
 
           <motion.p
@@ -58,8 +61,8 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Over history, new technologies have continually reshaped how artists create and share visual art.
-            Explore how innovation changed artistic techniques, distribution, and cultural values.
+            Throughout history, new tech has kept changing how artists make and share their work.
+            Check out how different innovations shaped artistic methods, how art gets distributed, and what people value in art.
           </motion.p>
 
           <motion.div
@@ -92,7 +95,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 text-center text-muted-foreground border-t border-border/30 bg-background/50 backdrop-blur-sm">
-        <p>© {new Date().getFullYear()} TOK Assignment. Created with Next.js & shadcn/ui.</p>
+        <p>© {new Date().getFullYear()} Diwen Huang • TOK Assignment</p>
       </footer>
     </div>
   );
